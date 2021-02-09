@@ -2,9 +2,8 @@ using System.Collections.Generic;
 
 namespace SmartSchool.WebAPI.Models
 {
-    public class Aluno
-    {
-        public int Id { get; set; }
+    public class Aluno: Entidade
+    {        
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
         public string Telefone { get; set; }
